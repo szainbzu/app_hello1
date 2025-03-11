@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText edtName;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //this is new code1234
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
